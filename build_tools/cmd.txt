@@ -1,0 +1,4 @@
+rm -rf /root/workspace/llvm-project/llvm/build/*
+./build_llvm.sh /root/workspace/llvm-project /root/workspace/llvm-project/build /root/workspace/llvm-project/build
+
+export LD_LIBRARY_PATH=/root/workspace/llvm-project/llvm/build/lib:$LD_LIBRARY_PATH:

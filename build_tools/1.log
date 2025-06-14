@@ -1,0 +1,3 @@
+/root/workspace/my_test/experiments/MiniLM/model/02-linalg.mlir:143:10: error: custom op 'linalg.init_tensor' is unknown
+    %1 = linalg.init_tensor [1, 12] : tensor<1x12xi64>
+         ^
